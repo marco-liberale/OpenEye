@@ -20,8 +20,8 @@ Once you have Python installed, follow these steps:
 ## Getting the API Keys
 OpenEye requires two API keys to function:
 
-**You.com Websarch API Key**: This is used to search the web for you target. You can obtain this key by registering on the You.com Index [website](https://api.you.com/).
-**OpenAI API Key**: This is used to access the GPT-3 model for summarizing the search results. You can obtain this key by registering on the OpenAI [website](https://platform.openai.com/).
+- **You.com Websarch API Key**: This is used to search the web for you target. You can obtain this key by registering on the You.com Index [website](https://api.you.com/).
+- **OpenAI API Key**: This is used to access the GPT-3 model for summarizing the search results. You can obtain this key by registering on the OpenAI [website](https://platform.openai.com/).
 
 ## Usage
 Once you have the API keys, you can use OpenEye by running the main Python script with the following command-line options:
