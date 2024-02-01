@@ -16,7 +16,7 @@ class YouComOSINT:
         return response.json()
 
     def summarize(self, text):
-        chat = self.openai.chat.completions.create(model="gpt-3.5-turbo",
+        chat = self.openai.chat.completions.create(model="gpt-4",
         messages=[
               {"role": "system", "content": "You will summarize any text that the user sends to you make it informational its for an OSINT scan report"},
               {"role": "user", "content": text}
