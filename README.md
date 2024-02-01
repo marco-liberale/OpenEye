@@ -1,5 +1,5 @@
 # OpenEye
-**"Note: This tool is in pre-alpha, more updates will be coming soon.**
+**Note: This tool is in pre-alpha, more updates will be coming soon.**
 # Documentation
 
 ## Introduction
