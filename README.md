@@ -38,7 +38,7 @@ Here is an example of how to use OpenEye:
 python main.py -t "John Doe" -k "your_youdotcom_websearch_api_key" -c "your_openai_api_key" -s
 ```
 
-This will search for "John Doe" using the specified YDC Index API key, summarize the results using the specified OpenAI API key, and print the summarized results to the console.
+This will search for "John Doe" using the specified You.com Index API key, summarize the results using the specified OpenAI API key, and print the summarized results to the console.
 
 If you want to save the results to a file, you can use the `-o` option:
 
