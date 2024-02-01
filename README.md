@@ -20,14 +20,14 @@ Once you have Python installed, follow these steps:
 ## Getting the API Keys
 OpenEye requires two API keys to function:
 
-- **You.com Websarch API Key**: This is used to search the web for you target. You can obtain this key by registering on the You.com Index [website](https://api.you.com/).
+- **You.com Websearch API Key**: This is used to search the web for you target. You can obtain this key by registering on the You.com Index [website](https://api.you.com/).
 - **OpenAI API Key**: This is used to access the GPT-3 model for summarizing the search results. You can obtain this key by registering on the OpenAI [website](https://platform.openai.com/).
 
 ## Usage
 Once you have the API keys, you can use OpenEye by running the main Python script with the following command-line options:
 
 - `-t` or `--target`: Specify the target to search.
-- `-k` or `--key`: Specify the You.com Websarch API Key.
+- `-k` or `--key`: Specify the You.com Websearch API Key.
 - `-o` or `--output`: Specify the output file. If not specified, the output will be printed to the console.
 - `-s` or `--summarize`: Enable summary mode. This uses the GPT-3 model to summarize the search results.
 - `-c` or `--chatgpt`: Specify the OpenAI API key.
@@ -46,6 +46,8 @@ If you want to save the results to a file, you can use the `-o` option:
 python main.py -t "John Doe" -k "your_youdotcom_websearch_api_key" -c "your_openai_api_key" -s -o "output.txt"
 ```
 
+Enjoy :)
+
 This will save the summarized results to "output.txt".
 
-Please note that both the target and the You.com Websarch API Key must be specified. If they are not, OpenEye will display an error message and exit.
+Please note that both the target and the You.com Websearch API Key must be specified. If they are not, OpenEye will display an error message and exit.
