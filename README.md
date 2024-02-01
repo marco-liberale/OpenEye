@@ -52,8 +52,14 @@ If you want to save the results to a file, you can use the `-o` option:
 python main.py -t "John Doe" -k "your_youdotcom_websearch_api_key" -c "your_openai_api_key" -s -o "output.txt"
 ```
 
-Enjoy :)
+
 
 This will save the summarized results to "output.txt".
 
 Please note that both the target and the You.com Websearch API Key must be specified. If they are not, OpenEye will display an error message and exit.
+
+## Legal Disclamer
+By using the repository, you acknowledge that you have read this [Disclaimer](https://github.com/marco-liberale/OpenEye/blob/main/legal_disclamer.pdf) and agree to be bound by the terms hereof.
+If you do not agree to abide by the above, please do not use the repository.
+
+Enjoy :)
