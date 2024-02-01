@@ -11,7 +11,13 @@ To install OpenEye, you need to have Python installed on your system. If you don
 Once you have Python installed, follow these steps:
 
 1. Clone the OpenEye repository to your local machine.
+   ```
+   git clone https://github.com/marco-liberale/OpenEye.git
+   ```
 2. Navigate to the directory containing the OpenEye files.
+   ```
+   cd OpenEye
+   ```
 3. Install the required Python packages using the following command:
    ```
    pip install -r requirements.txt
