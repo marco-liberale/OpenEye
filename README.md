@@ -29,7 +29,7 @@ Once you have the API keys, you can use OpenEye by running the main Python scrip
 - `-t` or `--target`: Specify the target to search.
 - `-k` or `--key`: Specify the You.com Websearch API Key.
 - `-o` or `--output`: Specify the output file. If not specified, the output will be printed to the console.
-- `-s` or `--summarize`: Enable summary mode. This uses the GPT-3 model to summarize the search results.
+- `-s` or `--summarize`: Enable summary mode. This uses the GPT-4 model to summarize the search results.
 - `-c` or `--chatgpt`: Specify the OpenAI API key.
 
 Here is an example of how to use OpenEye:
