@@ -3,7 +3,7 @@
 # Documentation
 
 ## Introduction
-OpenEye is a powerful tool for Open Source Intelligence (OSINT) that allows you to search and summarize information about a specific target. It uses the OpenAI GPT-3 model for summarizing the search results.
+OpenEye is a powerful tool for Open Source Intelligence (OSINT) that allows you to search and summarize information about a specific target. It uses the OpenAI GPT-4 model for summarizing the search results.
 
 ## Installation
 To install OpenEye, you need to have Python installed on your system. If you don't have Python installed, you can download it from the official Python website.
@@ -27,7 +27,7 @@ Once you have Python installed, follow these steps:
 OpenEye requires two API keys to function:
 
 - **You.com Websearch API Key**: This is used to search the web for you target. You can obtain this key by registering on the You.com Developers [website](https://api.you.com/).
-- **OpenAI API Key**: This is used to access the GPT-3 model for summarizing the search results. You can obtain this key by registering on the OpenAI [website](https://platform.openai.com/).
+- **OpenAI API Key**: This is used to access the GPT-4 model for summarizing the search results. You can obtain this key by registering on the OpenAI [website](https://platform.openai.com/).
 
 ## Usage
 Once you have the API keys, you can use OpenEye by running the main Python script with the following command-line options:
